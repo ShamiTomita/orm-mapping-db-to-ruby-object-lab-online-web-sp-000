@@ -27,7 +27,9 @@ class Student
 
   def self.find_by_name(name)
     sql = <<-SQL 
-    SELECT 
+    SELECT * 
+    FROM students 
+    
   end
   
   def save
