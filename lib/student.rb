@@ -75,7 +75,7 @@ class Student
     sql = <<-SQL 
     SELECT * 
     FROM students 
-    WHERE grade = 10, id = 1 
+    WHERE grade = 10 id = 1 
     
     SQL
     
